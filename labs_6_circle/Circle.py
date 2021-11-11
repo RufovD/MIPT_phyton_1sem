@@ -281,7 +281,7 @@ while not finished:
 
 
     """Финальный экран"""
-    elif time > play_time + 3:
+    if time > play_time + 3:
 
         """Вывод полученного результата игрока"""
         screen.fill(BLACK)
